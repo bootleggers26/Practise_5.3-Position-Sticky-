@@ -5,6 +5,3 @@
 ---
 
 ![position_sticky](/img/sticky.png)
-
-
-![position_sticky](/img/Fixed.png)
