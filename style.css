@@ -1,0 +1,51 @@
+body,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнеру мы ограничили ширину и выставили по центру */
+.container {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 150px;
+  background-color: black;
+}
+
+/* Позиционирование и стили для меню */
+.menu {
+  position: sticky;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: aqua;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+/* Стили для элементов меню */
+.menu li {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+/* Убираем отступ для последнего элемента */
+.menu li:last-child {
+  margin-right: 0;
+}
+
+/* Контент с отступом сверху и высотой для скролла */
+.content {
+  /* padding-top: 80px; */
+  height: 200vh;
+}
